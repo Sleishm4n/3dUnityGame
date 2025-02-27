@@ -8,8 +8,8 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
-        // Check for shooting input.
-        if (Input.GetButtonDown("Fire1")) // Left mouse button or equivalent.
+
+        if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
         }
@@ -20,11 +20,9 @@ public class Weapon : MonoBehaviour
         // Instantiate the bullet at the fire point.
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         
-        // Add force to the bullet's Rigidbody to propel it forward.
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        if (rb != null)
-        {
-            rb.AddForce(firePoint.forward * bulletForce, ForceMode.Impulse);
-        }
+
+        // Make bullet move in the direction of the camera
+        rb.linearVelocity = Camera.main.transform.forward * bulletForce;
     }
 }
