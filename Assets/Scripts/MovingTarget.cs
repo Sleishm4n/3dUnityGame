@@ -2,22 +2,24 @@ using UnityEngine;
 
 public class MovingTarget : MonoBehaviour
 {
-    public Transform[] waypoints; // Set points for movement
-    private int currentWaypoint = 0;
+    public Transform pointA;
+    public Transform pointB;
+    private bool movingToB = true;
     private UnityEngine.AI.NavMeshAgent agent;
 
     void Start()
     {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        agent.SetDestination(waypoints[currentWaypoint].position);
+
+        agent.SetDestination(pointB.position);
     }
 
     void Update()
     {
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
         {
-            currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
-            agent.SetDestination(waypoints[currentWaypoint].position);
+            movingToB = !movingToB; 
+            agent.SetDestination(movingToB ? pointB.position : pointA.position);
         }
     }
 }

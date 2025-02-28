@@ -606,7 +606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519367871}
   m_Layer: 0
-  m_Name: T5Wp
+  m_Name: Wp5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -621,7 +621,7 @@ Transform:
   m_GameObject: {fileID: 519367870}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.37, y: 10.081691, z: -24.06}
+  m_LocalPosition: {x: -16.19, y: 10.081691, z: -17.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -635,6 +635,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 150268294}
     m_Modifications:
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 519367871}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 1780277996}
     - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: waypoints.Array.size
       value: 1
@@ -702,7 +710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602306410}
   m_Layer: 0
-  m_Name: T2Wp
+  m_Name: Wp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -844,7 +852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 835280928}
   m_Layer: 0
-  m_Name: T4Wp
+  m_Name: Wp4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -859,7 +867,7 @@ Transform:
   m_GameObject: {fileID: 835280927}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: 10.081691, z: -17.09}
+  m_LocalPosition: {x: -18.17, y: 10.081691, z: -8.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1373,11 +1381,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 150268294}
     m_Modifications:
     - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1852375223}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 519367871}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: waypoints.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: 'waypoints.Array.data[0]'
+      value: 
+      objectReference: {fileID: 519367871}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: 'waypoints.Array.data[1]'
       value: 
       objectReference: {fileID: 519367871}
     - target: {fileID: 627241517958502648, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
@@ -1386,7 +1406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8140712589642773300, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.5
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 8140712589642773300, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1394,7 +1414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8140712589642773300, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.31
+      value: 17.73
       objectReference: {fileID: 0}
     - target: {fileID: 8140712589642773300, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1605,11 +1625,27 @@ PrefabInstance:
     m_TransformParent: {fileID: 150268294}
     m_Modifications:
     - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1701295380}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 519367871}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: waypoints.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: 'waypoints.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1701295380}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: 'waypoints.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1852375223}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: 'waypoints.Array.data[2]'
       value: 
       objectReference: {fileID: 1701295380}
     - target: {fileID: 627241517958502648, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
@@ -1764,7 +1800,7 @@ Transform:
   m_GameObject: {fileID: 1683521450}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.07, y: 5.05, z: 41.03}
+  m_LocalPosition: {x: -2.07, y: 5.12, z: 40.93}
   m_LocalScale: {x: 2.117968, y: 1.4331, z: 1.4331}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1778,6 +1814,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 150268294}
     m_Modifications:
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1780277996}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 602306410}
     - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: waypoints.Array.size
       value: 1
@@ -1845,7 +1889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701295380}
   m_Layer: 0
-  m_Name: T1Wp
+  m_Name: Wp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1874,6 +1918,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 150268294}
     m_Modifications:
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 835280928}
+    - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 1852375223}
     - target: {fileID: -6799308210352363865, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
       propertyPath: waypoints.Array.size
       value: 1
@@ -1931,6 +1983,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a08511947e348f4399fbcd6ff70a64b, type: 3}
+--- !u!1 &1780277995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1780277996}
+  m_Layer: 0
+  m_Name: Wp6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1780277996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780277995}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.3, y: 15.82, z: 11.38}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1980201147}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1852375222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,7 +2024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1852375223}
   m_Layer: 0
-  m_Name: T3Wp
+  m_Name: Wp3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1956,7 +2039,7 @@ Transform:
   m_GameObject: {fileID: 1852375222}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.12, y: 10.081691, z: -6.62}
+  m_LocalPosition: {x: 7.63, y: 10.081691, z: -29.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1997,6 +2080,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1701295380}
+  - {fileID: 1780277996}
   - {fileID: 602306410}
   - {fileID: 1852375223}
   - {fileID: 835280928}

@@ -123,6 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12166019b859ec244a5ad6dc42af271a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explsSound: {fileID: 8300000, guid: 3f692f0823b3f45afb000d656f137d55, type: 3}
+  explosionEffect: {fileID: 8367487928085297263, guid: 90f45c23fa95e8b49a8c4a1a967d6708, type: 3}
 --- !u!195 &891170702787473608
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -157,3 +159,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83fe314f717d95b4883c2a341a3a5d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
