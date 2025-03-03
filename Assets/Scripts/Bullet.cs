@@ -12,7 +12,10 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Destroy on collision.
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            return;
+        }
         Destroy(gameObject);
     }
 }
